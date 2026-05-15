@@ -1,0 +1,39 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: DSSP-TargetP-8
+  description: Service DSSP-TargetP-8
+
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/DSSP-TargetP-8
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_SSP_PoC/DSSP-TargetP-8/main
+    argocd/app-name: dssp-targetp-8-qat
+    backstage.io/kubernetes-id: DSSP-TargetP-8
+    sonarqube.org/project-key: dssp-targetp-8
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
+
+# apiVersion: backstage.io/v1alpha1
+# kind: Component
+
+# metadata:
+#   name: DSSP-TargetP-8
+#   description: Service DSSP-TargetP-8
+
+#   annotations:
+#     github.com/project-slug: BackstageSSPPoC/DSSP-TargetP-8
+#     backstage.io/techdocs-ref: dir:.
+#     jenkins.io/job-full-name: Backstage_SSP_PoC/DSSP-TargetP-8/main
+#     argocd/app-name: dssp-targetp-8
+#     backstage.io/kubernetes-id: DSSP-TargetP-8
+#     sonarqube.org/project-key: dssp-targetp-8
+
+# spec:
+#   type: service
+#   owner: development
+#   lifecycle: experimental
